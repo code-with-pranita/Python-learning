@@ -51,3 +51,12 @@ def converter(usd_val):
   print(usd_val,"USD=",inr_val,"INR")
 
   converter(usd_val)
+  # RECURSION
+# It is nothing but a loop. we mainly use loop instead of it.
+def show(n):
+  if(n == 0):
+      return
+  print(n)
+  show(n-1)
+  
+show(3)
