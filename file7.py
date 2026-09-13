@@ -83,6 +83,6 @@ f=open("file4.txt","w")
 f.write("why so hot?")
 
 
-f.close()
+
 
 
