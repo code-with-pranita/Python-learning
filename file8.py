@@ -16,4 +16,4 @@ class student:
 
 
 s1=student("Pranita", 99)
-print(s1.name,s1.marks)
+# print(s1.name,s1.marks)
