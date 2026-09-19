@@ -1,5 +1,3 @@
-#for loop
-
 # 1) count vowels in str
 
 str=input("Enter a string")
@@ -19,17 +17,3 @@ for i in range(1,11):
 num= (1,2,3,4,5,6,7,8,9,10)
 for el in num:
    print(el*el)
-
-# 3) sum of all no. from 1 to 100
-sum=0
-for el in range(1,101):
- sum+=el
-print("sum=",sum)
-
- # 4) clculate freq of each words in string
-
-str=input("write")
-
-
-for el in str:
-      print(el,str.count(el))
