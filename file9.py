@@ -51,3 +51,4 @@ print(str[::-1])
 # To remove duplicate from lists
 info=[2,3,6,2,4]
 print(set(info))
+
