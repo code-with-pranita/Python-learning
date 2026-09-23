@@ -32,8 +32,6 @@ str=input("write")
 for el in str:
       print(el,str.count(el))
 
-
- 
 # 5) G A M E
 
 import random
@@ -51,4 +49,12 @@ print(str[::-1])
 # To remove duplicate from lists
 info=[2,3,6,2,4]
 print(set(info))
+
+#to arrange in ascending
+
+info.sort()
+print(info)
+
+
+ 
 
