@@ -25,3 +25,19 @@ else:
 # 6) reverse a string
 str= "victory and"
 print(str[::-1])
+
+# To remove duplicate from lists
+info=[2,3,6,2,4]
+print(set(info))
+
+#to arrange in ascending
+
+info.sort()
+print(info)
+
+#Year is leap or not
+year=int(input("type year"))
+if(year%400==0)or(year%4==0)and(year%100!=0):
+   print("leap year")
+else:
+   print("nonleap year")
