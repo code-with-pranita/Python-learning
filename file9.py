@@ -41,3 +41,8 @@ if(year%400==0)or(year%4==0)and(year%100!=0):
    print("leap year")
 else:
    print("nonleap year")
+
+#to find second largest no. in list
+list=[3,5,8,6]
+list.sort()
+print(list[-2])
