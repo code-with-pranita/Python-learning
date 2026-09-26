@@ -46,3 +46,12 @@ else:
 list=[3,5,8,6]
 list.sort()
 print(list[-2])
+
+#To add at last
+a=[4,6,9]
+a.append(6)
+print(a)
+#To remove
+a=[4,6,9]
+a.remove(9)#removes a value in list only
+print(a)
