@@ -11,3 +11,12 @@ else:
 # 6) reverse a string
 str= "victory and"
 print(str[::-1])
+
+# To remove duplicate from lists
+info=[2,3,6,2,4]
+print(set(info))
+
+#to arrange in ascending
+
+info.sort()
+print(info)
